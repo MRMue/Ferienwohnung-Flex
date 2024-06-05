@@ -12,17 +12,53 @@
     <header>
         <p id="Smiley">:)</p>
         <h1>Villa Kunterbunt</h1>
-        <p>Kontakt</p>
+        <nav>
+            <a href="index.html">Startseite</a> |
+            <a href="contact.html">Kontakt</a>
+        </nav>
     </header>
+    <div class="flex-container">
     <h3>Kontaktinformationen</h3>
-    <address>
-        0000/00000000<br>
-        <a href="mailto:villa-carpe-diem@gnone.com">villa-kunterbunt@gnone.com</a><br>
-        Am Existiert-Nicht See 000<br>
-        00000 Ausgedachtern
-    </address>
-    <h3>Standort</h3>
-        <iframe width="68%" height="750px" src="https://www.openstreetmap.org/export/embed.html?bbox=11.15214765071869%2C46.66915398403485%2C11.155688166618347%2C46.670758927489125&amp;layer=mapnik&amp;marker=46.66995646171912%2C11.153917908668518" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=46.66996&amp;mlon=11.15392#map=19/46.66996/11.15392">Größere Karte anzeigen</a></small>
+</div>
+<div class="flex-container">
+        <address>
+            0000/00000000<br>
+            <a href="mailto:villa-carpe-diem@gnone.com">villa-kunterbunt@gnone.com</a><br>
+            Am Existiert-Nicht See 000<br>
+            00000 Ausgedachtern
+        </address>
+    </div>
+    <div class="flex-container">
+        <h3>Kontaktformular</h3>
+    </div>
+    <div class="flex-container">
+        <form class="grid-container">
+            <div><label for="name">Name:</label></div>
+            <div><input type="text" id="name" name="name" value="Maxi Muster"></div>
+            <div><label for="street">Straße:</label></div>
+            <div><input type="text" id="street" name="street" value="Musterstraße 1"></div>
+            <div><label for="city">Ort:</label></div>
+            <div><input type="text" id="city" name="city" value="12345 Musterstadt"></div>
+            <div><label for="arrival">Ankunft:</label></div>
+            <div><input type="text" id="arrival" name="arrival" value="01.01.2025"></div>
+            <div><label for="departure">Abreise:</label></div>
+            <div><input type="text" id="departure" name="departure" value="15.01.2025"></div>
+            <div><label for="pets">Haustiere:</label></div>
+            <div><select name="pets" id="pets">
+                    <option value="no">nein</option>
+                    <option value="yes">ja</option>
+                </select></div>
+            <div><input type="submit" value="Absenden"> </div>
+        </form>
+    </div>
+    <div class="flex-container gallery">
+        <h3>Standort</h3>
+        <div><iframe width="68%" height="750px"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=11.15214765071869%2C46.66915398403485%2C11.155688166618347%2C46.670758927489125&amp;layer=mapnik&amp;marker=46.66995646171912%2C11.153917908668518"
+            style="border: 1px solid black"></iframe></div>
+        <div><small><a href="https://www.openstreetmap.org/?mlat=46.66996&amp;mlon=11.15392#map=19/46.66996/11.15392">Größere
+                Karte anzeigen</a></small></div>
+    </div>
 </body>
 <footer>
 </footer>
